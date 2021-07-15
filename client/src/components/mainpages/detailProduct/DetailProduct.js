@@ -26,7 +26,7 @@ export default function DetailProduct() {
         <>
         <div className="detail">
             <img src={detailProduct.images.url} alt=""/>
-            <div className="box.detail">
+            <div className="box-detail">
               <div className="row">
                    <h2>{detailProduct.title}</h2>
                    <h6>#id: {detailProduct.product_id}</h6>
